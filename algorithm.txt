@@ -1,0 +1,31 @@
+Pi algorithm
+On pi start
+	Open to desktop
+	Autorun terminal
+		accomplished by adding code to /home/pi/Desktop/autorun
+	When terminal is opened run py script
+		Done through adding python "python file name" to .bashrc
+
+
+
+
+Slideshow
+On app start create frame Slideshow()
+
+	imagegetter detects OS and creates paths for all available images
+
+	Slideshow creates a textframe
+		Text frame shows 4 lines
+			title
+			date
+			time
+			location
+		Text frame is shown for X seconds (X is long enough to read)
+		Text frame is shown once every fifth slide minimum
+
+	Slideshow creates an image frame for all N images provided
+		Each image is shown full screen borderless
+		Each image is shown for Y seconds 
+		Every 4th image return to textframe
+
+	Two timers are started to switch the shown frame
